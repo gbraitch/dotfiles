@@ -84,6 +84,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
     git
     zsh-autosuggestions # suggest commands based on history
+    zsh-syntax-highlighting # fish like syntax highlighting
     zsh-completions # more completions
     sudo	# adds sudo to front of text by double pressing Esc
     copyfile # copyfile <filename> : puts contents of file in clipboard
@@ -128,7 +129,6 @@ export TERM="xterm-256color"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /home/gurse/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k-robbyrussell.zsh ]] || source ~/.p10k-robbyrussell.zsh

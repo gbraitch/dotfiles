@@ -4,6 +4,7 @@
 alias c='clear'
 alias h='history'
 export HISTCONTROL=ignoredups
+alias sshWork='ssh gurse@192.168.0.112'
 # ----------------------
 # Pretty path
 # ----------------------
