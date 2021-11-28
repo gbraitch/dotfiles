@@ -13,7 +13,7 @@ dir=~/dotfiles
 olddir=~/dotfiles_old
 
 # list of files/folders to symlink in homedir
-files="oh-my-zsh vim p10k.zsh tmux.conf zshrc tmux aliases p10k-robbyrussell.zsh vimrc"
+files="p10k.zsh tmux.conf zshrc tmux aliases p10k-robbyrussell.zsh vimrc"
 
 ##########
 
