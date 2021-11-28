@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/gurse/Documents/vimFundamentals/vim-nav-playground/src'
+let g:netrw_dirhist_2='/home/gurse/Documents/vimFundamentals'
+let g:netrw_dirhist_3='/home/gurse'
+let g:netrw_dirhist_4='/home/gurse/unity'
+let g:netrw_dirhist_5='/home/gurse'
+let g:netrw_dirhist_6='/home/gurse/unity-packages'
