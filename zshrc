@@ -10,7 +10,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/gurse/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Powerline directory
 export POWERLINE_LOCATION="/usr/share/powerline"
@@ -88,7 +88,6 @@ plugins=(
     sudo	# adds sudo to front of text by double pressing Esc
     copyfile # copyfile <filename> : puts contents of file in clipboard
     dirhistory # navigate dir by using alt-(up-down-left-right)
-    zsh_reload # reload zshrc by using 'src' command
 )
 autoload -U compinit && compinit # reload completions for zsh-completions
 
@@ -127,8 +126,8 @@ export TERM="xterm-256color"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/gurse/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme 
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source "$ZSH/custom/themes/powerlevel10k/powerlevel10k.zsh-theme"
+source "$ZSH/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k-robbyrussell.zsh ]] || source ~/.p10k-robbyrussell.zsh

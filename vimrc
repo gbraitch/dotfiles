@@ -17,7 +17,7 @@ set expandtab               "Use spaces instead of tabs
 set smartindent
 set showmode                "Show current mode
 set title                   "Show filename in window titlebar
-set clipboard=unamed        "Use OS clipboard by default
+set clipboard=unnamedplus   "Use OS clipboard by default
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
@@ -48,4 +48,3 @@ nnoremap <leader><CR> :so ~/.vimrc<CR>
 nnoremap <C-p> :GFiles<CR>
 " <leader> + p + f == :Files
 nnoremap <leader>pf :Files<CR>
-
