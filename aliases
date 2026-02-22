@@ -22,12 +22,12 @@ alias rr='rm -rf'
 # Modified commands
 # ----------------------
 if command -v eza >/dev/null 2>&1; then
-  alias ls='eza --color=always --group-directories-first --icons'
-  alias la='eza -a --color=always --group-directories-first --icons'
+  alias ls='eza --color=always --group-directories-first'
+  alias la='eza -a --color=always --group-directories-first'
   alias lt='eza --long --no-permissions --no-user --no-filesize -t modified'
 elif command -v exa >/dev/null 2>&1; then
-  alias ls='exa --color=always --group-directories-first --icons'
-  alias la='exa -a --color=always --group-directories-first --icons'
+  alias ls='exa --color=always --group-directories-first'
+  alias la='exa -a --color=always --group-directories-first'
   alias lt='exa --long --no-permissions --no-user --no-filesize -t modified'
 else
   alias ls='ls -G'
